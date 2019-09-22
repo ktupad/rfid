@@ -6,9 +6,9 @@
 #define RST_PIN  D3  
 #define SS_PIN  D8  
 
-const char *ssid =  "ktupad.com";   
-const char *pass =  "wifi@ktupad"; 
-String kirim = "http://192.168.43.229/ardu/?in=1&uid=";
+const char *ssid =  "myssid";   
+const char *pass =  "passssid"; 
+String kirim = "http://rfidapp.gearhostpreview.com/app.php?iot&mod=update&id=1&data[nama]=";
 
 MFRC522 mfrc522(SS_PIN, RST_PIN);  
 
