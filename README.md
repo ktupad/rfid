@@ -1,7 +1,8 @@
 
 # Aplikasi Sensor RFID
-Wemos D1 Mini / ESP2866, MFRC522. 
-Ktupad MVC Framework
+Wemos D1 Mini / ESP2866, MFRC522.  
+Ktupad MVC Framework  
+Demo: http://rfid-ktupad.gearhostpreview.com/  
 
 
 ## Import Aplikasi
@@ -30,6 +31,13 @@ lalu klik commit changes.
 ## Install Database
 1. http://rfidapp.gearhostpreview.com/app.php?mod=install
 2. Jalankan aplikasi http://rfidapp.gearhostpreview.com/
+
+## Upload IoT
+1. download dan edit rfid-ktupad.ino
+2. edit ssid dan pass
+3. edit host menjadi http://rfidapp.gearhostpreview.com/app.php?iot&mod=update&id=1&data[nama]=
+4. Upload kedalam board.
+
 
 Done.
 
