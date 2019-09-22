@@ -33,5 +33,6 @@ lalu klik commit changes.
 
 Done.
 
+![Ktupad rfid App](rfid-1.png)  
 ![Ktupad rfid App](rfid-1.jpeg)  
 ![Ktupad rfid App](rfid-1.gif)
