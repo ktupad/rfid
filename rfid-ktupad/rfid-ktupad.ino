@@ -8,7 +8,7 @@
 
 const char *ssid =  "myssid";   
 const char *pass =  "passssid"; 
-String kirim = "http://rfidapp.gearhostpreview.com/app.php?iot&mod=update&id=1&data[nama]=";
+String host = "http://rfidapp.gearhostpreview.com/app.php?iot&mod=update&id=1&data[nama]=";
 
 MFRC522 mfrc522(SS_PIN, RST_PIN);  
 
@@ -56,7 +56,7 @@ unsigned long getID(){
 unsigned long sendID(){
   unsigned long uid = getID();
   HTTPClient http;
-  http.begin(kirim + uid);
+  http.begin(host + uid);
   int statusCode = http.GET();
   Serial.println(http.getString());
   //Serial.println(uid);
